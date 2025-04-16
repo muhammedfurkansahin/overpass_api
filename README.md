@@ -38,9 +38,9 @@ Düzenli Güncellenen Versiyon:
 ⚙️ Kullanım
 
 Docker konteynerini aşağıdaki şekilde çalıştırabilirsiniz:
-
+```
 docker run -d -p 80:80 ghcr.io/muhammedfurkansahin/overpass-places-api-x86-64:<versiyon_ismi>
-
+```
 <versiyon_ismi> kısmına kullanmak istediğiniz versiyonu giriniz (örneğin, v1.0-t-db).
 
 📄 Lisans
