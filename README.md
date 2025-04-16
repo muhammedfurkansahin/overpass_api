@@ -23,18 +23,18 @@ Bu proje, Overpass API’nin özelleştirilmiş Docker imajlarını sunar. Farkl
 📦 Docker İmajları
 
 Aşağıdaki komutlarla ilgili Docker imajlarını çekebilirsiniz:
-	•	Türkiye Geneli (Güncellenmeyen):
-
+Türkiye Geneli (Güncellenmeyen):
+```
   docker pull ghcr.io/muhammedfurkansahin/overpass-places-api-x86-64:v1.0-t-db
-
-	•	Konya Özel (Güncellenmeyen):
-
+```
+Konya Özel (Güncellenmeyen):
+```
   docker pull ghcr.io/muhammedfurkansahin/overpass-places-api-x86-64:v1.0-n-u
-
-	•	Düzenli Güncellenen Versiyon:
-
+```
+Düzenli Güncellenen Versiyon:
+```
   docker pull ghcr.io/muhammedfurkansahin/overpass-places-api-x86-64:v1.0-w-u
-
+```
 ⚙️ Kullanım
 
 Docker konteynerini aşağıdaki şekilde çalıştırabilirsiniz:
@@ -68,24 +68,24 @@ This project provides customized Docker images of the Overpass API. These images
 📦 Docker Images
 
 Pull the desired Docker image using the following commands:
-	•	Turkey-Wide (Static):
-
+Turkey-Wide (Static):
+```
   docker pull ghcr.io/muhammedfurkansahin/overpass-places-api-x86-64:v1.0-t-db
-
-	•	Konya-Specific (Static):
-
+```
+Konya-Specific (Static):
+```
   docker pull ghcr.io/muhammedfurkansahin/overpass-places-api-x86-64:v1.0-n-u
-
-	•	Regularly Updated Version:
-
+```
+Regularly Updated Version:
+```
   docker pull ghcr.io/muhammedfurkansahin/overpass-places-api-x86-64:v1.0-w-u
-
+```
 ⚙️ Usage
 
 Run the Docker container with the following command:
-
+```
 docker run -d -p 80:80 ghcr.io/muhammedfurkansahin/overpass-places-api-x86-64:<version_name>
-
+```
 Replace <version_name> with the desired version (e.g., v1.0-t-db).
 
 📄 License
